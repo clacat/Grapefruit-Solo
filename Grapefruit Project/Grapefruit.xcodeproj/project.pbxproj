@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790AEDEC25813A1F008F62B3 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AEDEB25813A1F008F62B3 /* AnimationView.swift */; };
+		7948B39B257FF5F500EB1C23 /* Grape2.0 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7948B39A257FF5F500EB1C23 /* Grape2.0 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7948B3A0257FF5F600EB1C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7948B39F257FF5F600EB1C23 /* Assets.xcassets */; };
+		7948B3A7257FF5F600EB1C23 /* Grape2.0 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7948B3A6257FF5F600EB1C23 /* Grape2.0 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7948B3AC257FF5F600EB1C23 /* GrapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948B3AB257FF5F600EB1C23 /* GrapeApp.swift */; };
+		7948B3AE257FF5F600EB1C23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948B3AD257FF5F600EB1C23 /* ContentView.swift */; };
+		7948B3B0257FF5F600EB1C23 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948B3AF257FF5F600EB1C23 /* NotificationController.swift */; };
+		7948B3B2257FF5F600EB1C23 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948B3B1257FF5F600EB1C23 /* NotificationView.swift */; };
+		7948B3B4257FF5F600EB1C23 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948B3B3257FF5F600EB1C23 /* ComplicationController.swift */; };
+		7948B3B6257FF5F600EB1C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7948B3B5257FF5F600EB1C23 /* Assets.xcassets */; };
+		7948B3B9257FF5F600EB1C23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7948B3B8257FF5F600EB1C23 /* Preview Assets.xcassets */; };
+		7948B3D3257FF69A00EB1C23 /* Techniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948B3D2257FF69A00EB1C23 /* Techniques.swift */; };
+		7948B3DE257FFEF100EB1C23 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7948B3DD257FFEF100EB1C23 /* SecondView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7948B39C257FF5F500EB1C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7948B390257FF5F500EB1C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7948B399257FF5F500EB1C23;
+			remoteInfo = "Grape2.0 WatchKit App";
+		};
+		7948B3A8257FF5F600EB1C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7948B390257FF5F500EB1C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7948B3A5257FF5F600EB1C23;
+			remoteInfo = "Grape2.0 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7948B3C1257FF5F600EB1C23 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7948B3A7257FF5F600EB1C23 /* Grape2.0 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7948B3C5257FF5F600EB1C23 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7948B39B257FF5F500EB1C23 /* Grape2.0 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		790AEDEB25813A1F008F62B3 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		7948B396257FF5F500EB1C23 /* Grape2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grape2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7948B39A257FF5F500EB1C23 /* Grape2.0 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grape2.0 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7948B39F257FF5F600EB1C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7948B3A1257FF5F600EB1C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7948B3A6257FF5F600EB1C23 /* Grape2.0 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Grape2.0 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7948B3AB257FF5F600EB1C23 /* GrapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapeApp.swift; sourceTree = "<group>"; };
+		7948B3AD257FF5F600EB1C23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7948B3AF257FF5F600EB1C23 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7948B3B1257FF5F600EB1C23 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		7948B3B3257FF5F600EB1C23 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7948B3B5257FF5F600EB1C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7948B3B8257FF5F600EB1C23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7948B3BA257FF5F600EB1C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7948B3BB257FF5F600EB1C23 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7948B3D2257FF69A00EB1C23 /* Techniques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Techniques.swift; sourceTree = "<group>"; };
+		7948B3DD257FFEF100EB1C23 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7948B3A3257FF5F600EB1C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7948B38F257FF5F500EB1C23 = {
+			isa = PBXGroup;
+			children = (
+				7948B39E257FF5F500EB1C23 /* Grape2.0 WatchKit App */,
+				7948B3AA257FF5F600EB1C23 /* Grape2.0 WatchKit Extension */,
+				7948B397257FF5F500EB1C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7948B397257FF5F500EB1C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7948B396257FF5F500EB1C23 /* Grape2.0.app */,
+				7948B39A257FF5F500EB1C23 /* Grape2.0 WatchKit App.app */,
+				7948B3A6257FF5F600EB1C23 /* Grape2.0 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7948B39E257FF5F500EB1C23 /* Grape2.0 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7948B39F257FF5F600EB1C23 /* Assets.xcassets */,
+				7948B3A1257FF5F600EB1C23 /* Info.plist */,
+			);
+			path = "Grape2.0 WatchKit App";
+			sourceTree = "<group>";
+		};
+		7948B3AA257FF5F600EB1C23 /* Grape2.0 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7948B3AB257FF5F600EB1C23 /* GrapeApp.swift */,
+				7948B3AD257FF5F600EB1C23 /* ContentView.swift */,
+				7948B3DD257FFEF100EB1C23 /* SecondView.swift */,
+				790AEDEB25813A1F008F62B3 /* AnimationView.swift */,
+				7948B3D2257FF69A00EB1C23 /* Techniques.swift */,
+				7948B3AF257FF5F600EB1C23 /* NotificationController.swift */,
+				7948B3B1257FF5F600EB1C23 /* NotificationView.swift */,
+				7948B3B3257FF5F600EB1C23 /* ComplicationController.swift */,
+				7948B3B5257FF5F600EB1C23 /* Assets.xcassets */,
+				7948B3BA257FF5F600EB1C23 /* Info.plist */,
+				7948B3BB257FF5F600EB1C23 /* PushNotificationPayload.apns */,
+				7948B3B7257FF5F600EB1C23 /* Preview Content */,
+			);
+			path = "Grape2.0 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7948B3B7257FF5F600EB1C23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7948B3B8257FF5F600EB1C23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7948B395257FF5F500EB1C23 /* Grape2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7948B3C6257FF5F600EB1C23 /* Build configuration list for PBXNativeTarget "Grape2.0" */;
+			buildPhases = (
+				7948B394257FF5F500EB1C23 /* Resources */,
+				7948B3C5257FF5F600EB1C23 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7948B39D257FF5F500EB1C23 /* PBXTargetDependency */,
+			);
+			name = Grape2.0;
+			productName = Grape2.0;
+			productReference = 7948B396257FF5F500EB1C23 /* Grape2.0.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		7948B399257FF5F500EB1C23 /* Grape2.0 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7948B3C2257FF5F600EB1C23 /* Build configuration list for PBXNativeTarget "Grape2.0 WatchKit App" */;
+			buildPhases = (
+				7948B398257FF5F500EB1C23 /* Resources */,
+				7948B3C1257FF5F600EB1C23 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7948B3A9257FF5F600EB1C23 /* PBXTargetDependency */,
+			);
+			name = "Grape2.0 WatchKit App";
+			productName = "Grape2.0 WatchKit App";
+			productReference = 7948B39A257FF5F500EB1C23 /* Grape2.0 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7948B3A5257FF5F600EB1C23 /* Grape2.0 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7948B3BE257FF5F600EB1C23 /* Build configuration list for PBXNativeTarget "Grape2.0 WatchKit Extension" */;
+			buildPhases = (
+				7948B3A2257FF5F600EB1C23 /* Sources */,
+				7948B3A3257FF5F600EB1C23 /* Frameworks */,
+				7948B3A4257FF5F600EB1C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grape2.0 WatchKit Extension";
+			productName = "Grape2.0 WatchKit Extension";
+			productReference = 7948B3A6257FF5F600EB1C23 /* Grape2.0 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7948B390257FF5F500EB1C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					7948B395257FF5F500EB1C23 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					7948B399257FF5F500EB1C23 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					7948B3A5257FF5F600EB1C23 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 7948B393257FF5F500EB1C23 /* Build configuration list for PBXProject "Grapefruit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = 7948B38F257FF5F500EB1C23;
+			productRefGroup = 7948B397257FF5F500EB1C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7948B395257FF5F500EB1C23 /* Grape2.0 */,
+				7948B399257FF5F500EB1C23 /* Grape2.0 WatchKit App */,
+				7948B3A5257FF5F600EB1C23 /* Grape2.0 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7948B394257FF5F500EB1C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7948B398257FF5F500EB1C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7948B3A0257FF5F600EB1C23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7948B3A4257FF5F600EB1C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7948B3B9257FF5F600EB1C23 /* Preview Assets.xcassets in Resources */,
+				7948B3B6257FF5F600EB1C23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7948B3A2257FF5F600EB1C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7948B3DE257FFEF100EB1C23 /* SecondView.swift in Sources */,
+				790AEDEC25813A1F008F62B3 /* AnimationView.swift in Sources */,
+				7948B3D3257FF69A00EB1C23 /* Techniques.swift in Sources */,
+				7948B3B0257FF5F600EB1C23 /* NotificationController.swift in Sources */,
+				7948B3AE257FF5F600EB1C23 /* ContentView.swift in Sources */,
+				7948B3B4257FF5F600EB1C23 /* ComplicationController.swift in Sources */,
+				7948B3AC257FF5F600EB1C23 /* GrapeApp.swift in Sources */,
+				7948B3B2257FF5F600EB1C23 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7948B39D257FF5F500EB1C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7948B399257FF5F500EB1C23 /* Grape2.0 WatchKit App */;
+			targetProxy = 7948B39C257FF5F500EB1C23 /* PBXContainerItemProxy */;
+		};
+		7948B3A9257FF5F600EB1C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7948B3A5257FF5F600EB1C23 /* Grape2.0 WatchKit Extension */;
+			targetProxy = 7948B3A8257FF5F600EB1C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7948B3BC257FF5F600EB1C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7948B3BD257FF5F600EB1C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7948B3BF257FF5F600EB1C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grape2.0 WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = GXVS8CQ292;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Grape2.0 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "antomenn.Grape2-0.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		7948B3C0257FF5F600EB1C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grape2.0 WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = GXVS8CQ292;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Grape2.0 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "antomenn.Grape2-0.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		7948B3C3257FF5F600EB1C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = GXVS8CQ292;
+				IBSC_MODULE = Grape2_0_WatchKit_Extension;
+				INFOPLIST_FILE = "Grape2.0 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "antomenn.Grape2-0.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		7948B3C4257FF5F600EB1C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = GXVS8CQ292;
+				IBSC_MODULE = Grape2_0_WatchKit_Extension;
+				INFOPLIST_FILE = "Grape2.0 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "antomenn.Grape2-0.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		7948B3C7257FF5F600EB1C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = GXVS8CQ292;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "antomenn.Grape2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7948B3C8257FF5F600EB1C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = GXVS8CQ292;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "antomenn.Grape2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7948B393257FF5F500EB1C23 /* Build configuration list for PBXProject "Grapefruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7948B3BC257FF5F600EB1C23 /* Debug */,
+				7948B3BD257FF5F600EB1C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7948B3BE257FF5F600EB1C23 /* Build configuration list for PBXNativeTarget "Grape2.0 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7948B3BF257FF5F600EB1C23 /* Debug */,
+				7948B3C0257FF5F600EB1C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7948B3C2257FF5F600EB1C23 /* Build configuration list for PBXNativeTarget "Grape2.0 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7948B3C3257FF5F600EB1C23 /* Debug */,
+				7948B3C4257FF5F600EB1C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7948B3C6257FF5F600EB1C23 /* Build configuration list for PBXNativeTarget "Grape2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7948B3C7257FF5F600EB1C23 /* Debug */,
+				7948B3C8257FF5F600EB1C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7948B390257FF5F500EB1C23 /* Project object */;
+}
